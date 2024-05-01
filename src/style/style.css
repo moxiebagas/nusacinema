@@ -27,3 +27,9 @@
 .images {
   height: 500px;
 }
+
+.myBg {
+  height: 100vh;
+  background: url("../assets/images/background/bg.jpg");
+  background-size: cover;
+}
