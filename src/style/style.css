@@ -13,12 +13,10 @@
   letter-spacing: 4px;
 }
 
-.movieWrapper {
-
-}
-
 .movieImage {
-  height: auto;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
   background-color: black;
   margin: 5px;
   padding: 5px;
@@ -32,4 +30,40 @@
   height: 100vh;
   background: url("../assets/images/background/bg.jpg");
   background-size: cover;
+}
+
+.trending {
+  height: auto;
+  background-color: black;
+  background-size: cover;
+}
+
+.icon-container {
+  display: flex; 
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.icon {
+  width: 20px;
+  height: auto;
+  margin-right: 5px;
+}
+
+.watchlist-button {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  padding: 8px 16px;
+  background-color: #6c757d;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.watchlist-button:hover {
+  background-color: #5b6c7c;
 }
